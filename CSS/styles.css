@@ -25,7 +25,7 @@
 
 
 /* ***************************** Nav Bar ***************************** */
-nav {
+.nav {
   background-color: var(--background-dark-color);
   display: flex;
   flex-direction: row;
@@ -39,16 +39,16 @@ nav {
 } */
 
 /* --------------------------------- Logo --------------------------------- */
-.logo-nav{
+.logo{
   display: flex;
   align-items:center;
 }
-#logo-img img{
+.logo__image{
   height: 40px;
   padding: 0.5rem 1rem;
 }
-#logo-texto{
-  padding: 0.5rem 20vw 0.5rem 20vw;
+.logo__text{
+  padding: 0.5rem 30vw 0.5rem 15vw;
   color: var(--text-color-white);
   text-decoration: none;
   font-size: 2rem;
@@ -57,7 +57,7 @@ nav {
 }
 
 /* -------------------------------- Menú -------------------------------- */
-.contenedorMenu{
+.menu{
   top: 0;
   position: absolute;
   background-color: var(--background-dark-color);
@@ -67,12 +67,12 @@ nav {
   flex-direction: column;
 }
 
-.menuInactivo {
+.menu--inactivo {
   top: -100vh;
   transition: 0.2s ease;
 }
 
-.menu-item{
+.menu__item{
   padding: 1rem;
   margin: auto;
   color: var(--text-color-white);
@@ -80,7 +80,7 @@ nav {
   font-size: 1.5rem;
   font-weight: var(--light);
 }
-.menu-item:hover{
+.menu__item:hover{
   font-weight: var(--medium);
 }
 /* Se agregará la clase dependiendo en dónde esté el usuario */
@@ -118,15 +118,15 @@ nav {
 /*************************** Edicion escritorio ***************************/
 
 @media screen and (min-width:700px){
-  #logo-texto{
+  .logo__text{
     padding: 0.5rem 1rem;
   }
-  .contenedorMenu{
+  .menu{
     position:initial;
     width: 500px;
     flex-direction: row;
   }
-  .menu-item{
+  .menu__item{
     font-size: 1.3rem;
   }
   .hamburger{
