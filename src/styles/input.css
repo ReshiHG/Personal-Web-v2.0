@@ -1,0 +1,31 @@
+/* Importamos fuentes personalizadas */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Importamos Tailwind base */
+@import "tailwindcss";
+
+/* Agregamos "variables" personalizadas */
+@theme {
+  --color-jr-naranja-200: #ff7a4d;
+  --color-jr-naranja-500: #fc4a1a;
+  --color-jr-naranja-700: #d93a0f;
+
+  --color-jr-negro-a-500: #2a2640;
+  --color-jr-negro-a-700: #1a1728;
+  --color-jr-negro-a-900: #0e0b16;
+
+  --color-jr-blanco-100: #fdfdfe;
+  --color-jr-gris-a-900: #b0b0b0;
+  --color-jr-gris-a-900: #808080;
+
+  --color-jr-logo-naranja-500: #ff7800;
+  --color-jr-logo-gris-500: #808080;
+  --color-jr-logo-verde-500: #02f9ba;
+  --color-jr-logo-blanco-500: #fdfdfe;
+
+  /* Cambiamos la fuente por defecto */
+  --default-font-family: "Roboto", sans-serif;
+
+  /* Agregamos una fuente personalizada */
+  --font-Noto: "Noto", sans-serif;
+}
