@@ -8,10 +8,13 @@ export function MenuItem({
   text = "Elemento de menú",
   active = false,
 }: MenuItemProps) {
-  const activeClass: string = active ? "font-bold" : " ";
+  const activeClass: string = active ? "font-semibold" : " ";
 
   return (
-    <a className={`py-4 text-center text-xl ${activeClass}`} href="">
+    <a
+      className={`py-4 text-center text-xl font-light md:py-0 ${activeClass}`}
+      href={`#${text}`}
+    >
       {text}
     </a>
   );
