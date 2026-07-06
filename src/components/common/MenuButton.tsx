@@ -9,14 +9,10 @@ export function MenuButton({
   isOpen = false,
   handleMenuButton = () => {},
 }: MenuButtonProps) {
-  const color = isOpen ? "#fdfdfe" : "#ff7800";
-  const buttonClassName = isOpen
-    ? "bg-jr-logo-naranja-500"
-    : "bg-jr-logo-blanco-500";
   return (
     <>
       <button
-        className={`fixed right-5 bottom-5 rounded-full border-2 border-jr-logo-naranja-500 p-2 md:hidden ${buttonClassName}`}
+        className={`fixed right-5 bottom-5 rounded-full border-2 border-jr-logo-naranja-500 bg-jr-logo-naranja-500 p-2 shadow-2xl/50 md:hidden`}
         onClick={handleMenuButton}
       >
         <Hamburger
@@ -24,7 +20,7 @@ export function MenuButton({
           // toggle={handleMenuButton}
           size={40}
           direction="right"
-          color={color}
+          color="#fdfdfe"
           rounded
           distance="sm"
           duration={0.5}
