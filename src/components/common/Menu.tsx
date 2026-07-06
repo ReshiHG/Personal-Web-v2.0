@@ -47,15 +47,6 @@ export function Menu({
         </div>
       </nav>
       <MenuButton isOpen={isOpen} handleMenuButton={handleMenuButton} />
-
-      <section className="h-250">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          fuga nemo numquam voluptatibus iure modi magni amet debitis deleniti
-          quaerat ullam tempore sequi vero eligendi sunt laboriosam earum,
-          quidem dignissimos!
-        </p>
-      </section>
     </>
   );
 }
