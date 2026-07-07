@@ -5,27 +5,21 @@ import { MenuItem } from "./MenuItem";
 interface MenuProps {
   marcaText: string;
   logoSVG: string;
-  sections: Sections[];
-}
-interface Sections {
-  sectionName: string;
-  active: boolean;
+  sections: string[];
 }
 
 export function Menu({
   marcaText = "J. Ricardo",
   logoSVG,
-  sections = [
-    { sectionName: "Sección 1", active: true },
-    { sectionName: "Sección 2", active: false },
-  ],
+  sections = ["Sección 1", "Sección 2"],
 }: MenuProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState(sections[0]);
 
   const handleMenuButton = () => setIsOpen(!isOpen);
   return (
     <>
-      <nav className="sticky top-0 z-40 h-16 w-full bg-jr-negro-a-900 text-white lg:h-auto">
+      <nav className="sticky top-0 z-40 -mt-16 h-16 w-full bg-jr-negro-a-900 text-white lg:h-auto">
         <div className="container mx-auto gap-8 lg:flex lg:justify-around">
           <div className="relative z-50 flex items-center bg-jr-negro-a-900 p-3 lg:flex lg:gap-8">
             <img src={logoSVG} alt={`Logo ${marcaText}`} className="h-10" />
@@ -40,8 +34,14 @@ export function Menu({
                 : "pointer-events-none -translate-y-full opacity-0 lg:pointer-events-auto lg:translate-y-0 lg:opacity-100"
             }`}
           >
-            {sections.map(({ sectionName, active }) => (
-              <MenuItem key={sectionName} text={sectionName} active={active} />
+            {sections.map((sectionName) => (
+              <MenuItem
+                key={sectionName}
+                text={sectionName}
+                active={sectionName === activeSection ? true : false}
+                handleMenuButton={handleMenuButton}
+                handleMenuItem={() => setActiveSection(sectionName)}
+              />
             ))}
           </div>
         </div>

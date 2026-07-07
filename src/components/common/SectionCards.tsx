@@ -26,7 +26,7 @@ interface SectionCardsProps {
 
 export function SectionCards({ sectionId = "" }: SectionCardsProps) {
   return (
-    <div className="bg-[url(/src/assets/motivo-mobile.png)] bg-size-[100%] lg:bg-[url(/src/assets/motivo-desktop.png)]">
+    <div className="bg-[url(/src/assets/motivo-mobile.png)] bg-size-[100%] bg-fixed lg:bg-[url(/src/assets/motivo-desktop.png)]">
       <section
         id={sectionId}
         className="container mx-auto -mt-16 max-w-7xl p-8 pt-16"

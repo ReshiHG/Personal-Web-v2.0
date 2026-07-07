@@ -1,9 +1,16 @@
 import { motion } from "framer-motion";
 
-export function Hero() {
+interface HeroProps {
+  id: string;
+}
+
+export function Hero({ id = "" }: HeroProps) {
   return (
     <>
-      <section className="flex h-[calc(100vh-64px)] flex-col justify-center gap-6 bg-[url(/src/assets/escritorio-taza-1920.jpg)] bg-cover bg-center p-7 text-white lg:justify-start lg:gap-8 lg:bg-[url(/src/assets/escritorio-taza-2984.jpg)] lg:p-12">
+      <section
+        id={id}
+        className="flex h-[calc(100vh)] flex-col justify-center gap-6 bg-[url(/src/assets/escritorio-taza-1920.jpg)] bg-cover bg-center p-7 text-white lg:justify-start lg:gap-8 lg:bg-[url(/src/assets/escritorio-taza-2984.jpg)] lg:p-12 lg:pt-28"
+      >
         <motion.h1
           className="font-Noto text-5xl lg:text-7xl"
           initial={{ opacity: 0, y: -100 }}

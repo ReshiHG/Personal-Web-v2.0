@@ -9,14 +9,14 @@ export function App() {
         marcaText={"J. Ricardo"}
         logoSVG={logoSVG}
         sections={[
-          { sectionName: "Sobre mi", active: true },
-          { sectionName: "Tecnologías", active: false },
-          { sectionName: "Proyectos", active: false },
-          { sectionName: "¿Qué hago?", active: false },
-          { sectionName: "Contacto", active: false },
+          "Sobre mi",
+          "Tecnologías",
+          "Proyectos",
+          "¿Qué hago?",
+          "Contacto",
         ]}
       />
-      <Hero />
+      <Hero id="Sobre mi" />
       <SectionCards sectionId={"Tecnologías"} />
       <p className="h-dvh">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
