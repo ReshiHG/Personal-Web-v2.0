@@ -25,9 +25,9 @@ export function Menu({
   const handleMenuButton = () => setIsOpen(!isOpen);
   return (
     <>
-      <nav className="sticky top-0 h-16 w-full bg-jr-negro-a-900 text-white lg:h-auto">
+      <nav className="sticky top-0 z-40 h-16 w-full bg-jr-negro-a-900 text-white lg:h-auto">
         <div className="container mx-auto gap-8 lg:flex lg:justify-around">
-          <div className="relative z-10 flex items-center bg-jr-negro-a-900 p-3 lg:flex lg:gap-8">
+          <div className="relative z-50 flex items-center bg-jr-negro-a-900 p-3 lg:flex lg:gap-8">
             <img src={logoSVG} alt={`Logo ${marcaText}`} className="h-10" />
             <h1 className="mx-auto font-Noto text-3xl font-extralight">
               {marcaText}

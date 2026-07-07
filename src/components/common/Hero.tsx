@@ -27,7 +27,7 @@ export function Hero() {
       </section>
 
       <motion.section
-        className="bg-jr-naranja-200 text-white lg:absolute lg:bottom-0 lg:left-0 lg:w-2/3 lg:rounded lg:rounded-tr-4xl lg:opacity-95 lg:shadow-[10px_-5px_25px_rgba(14,11,22,0.5)]"
+        className="bg-jr-naranja-200 text-white lg:absolute lg:bottom-0 lg:left-0 lg:w-2/3 lg:rounded lg:rounded-tr-4xl lg:opacity-95 lg:shadow-[12px_-13px_20px_rgba(14,11,22,0.3)]"
 
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -60,6 +60,7 @@ export function Hero() {
           </span>
         </p>
       </motion.section>
+      <div className="h-22.5 bg-[url(/src/assets/divisor-naranja-abajo-sombra.png)] lg:h-33.75 lg:bg-[url(/src/assets/divisor-naranja-abajo-sombra-desk.png)]"></div>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { Hero } from "./components/common/Hero";
 import { Menu } from "./components/common/Menu";
+import { SectionCards } from "./components/common/SectionCards";
 import logoSVG from "/src/assets/Logo-jr-fc.svg?url";
-
 export function App() {
   return (
     <>
@@ -17,6 +17,7 @@ export function App() {
         ]}
       />
       <Hero />
+      <SectionCards sectionId={"Tecnologías"} />
       <p className="h-dvh">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
         maiores molestiae minima eos rerum debitis, corrupti, quo ducimus at
