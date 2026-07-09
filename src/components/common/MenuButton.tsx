@@ -12,7 +12,7 @@ export function MenuButton({
   return (
     <>
       <button
-        className={`fixed right-5 bottom-5 rounded-full border-2 border-jr-logo-naranja-500 bg-jr-logo-naranja-500 p-2 shadow-2xl/50 lg:hidden`}
+        className={`fixed right-5 bottom-5 z-50 rounded-full border-2 border-jr-logo-naranja-500 bg-jr-logo-naranja-500 p-2 shadow-2xl/50 lg:hidden`}
         onClick={handleMenuButton}
       >
         <Hamburger
