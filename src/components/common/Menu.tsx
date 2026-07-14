@@ -5,16 +5,24 @@ import { MenuItem } from "./MenuItem";
 interface MenuProps {
   marcaText: string;
   logoSVG: string;
-  sections: string[];
+  sections: Sections[];
+}
+
+interface Sections {
+  title: string;
+  hideDesk?: boolean;
 }
 
 export function Menu({
   marcaText = "J. Ricardo",
   logoSVG,
-  sections = ["Sección 1", "Sección 2"],
+  sections = [
+    { title: "Sección móvil", hideDesk: true },
+    { title: "Sección Desk", hideDesk: false },
+  ],
 }: MenuProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState(sections[0]);
+  const [activeSection, setActiveSection] = useState(sections[0].title);
 
   const handleMenuButton = () => setIsOpen(!isOpen);
   return (
@@ -34,13 +42,14 @@ export function Menu({
                 : "pointer-events-none -translate-y-full opacity-0 lg:pointer-events-auto lg:translate-y-0 lg:opacity-100"
             }`}
           >
-            {sections.map((sectionName) => (
+            {sections.map(({ title, hideDesk }) => (
               <MenuItem
-                key={sectionName}
-                text={sectionName}
-                active={sectionName === activeSection ? true : false}
+                key={title}
+                text={title}
+                active={title === activeSection ? true : false}
+                hide={hideDesk}
                 handleMenuButton={handleMenuButton}
-                handleMenuItem={() => setActiveSection(sectionName)}
+                handleMenuItem={() => setActiveSection(title)}
               />
             ))}
           </div>
