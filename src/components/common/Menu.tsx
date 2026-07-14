@@ -33,10 +33,8 @@ export function Menu({
             <a href="#">
               <img src={logoSVG} alt={`Logo ${marcaText}`} className="h-10" />
             </a>
-            <a href="#">
-              <h1 className="mx-auto font-Noto text-3xl font-extralight">
-                {marcaText}
-              </h1>
+            <a className="mx-auto font-Noto text-3xl font-extralight" href="#">
+              <h1>{marcaText}</h1>
             </a>
           </div>
           <div

@@ -1,9 +1,12 @@
-import { Hero } from "./components/common/Hero";
 import { Menu } from "./components/common/Menu";
+import { Hero } from "./components/common/Hero";
 import { SectionCards } from "./components/common/SectionCards";
-import logoSVG from "/src/assets/Logo-jr-fc.svg?url";
 import { SectionCarousel } from "./components/common/SectionCarousel";
 import { SectionHabilities } from "./components/common/SectionHabilities";
+
+import logoSVG from "/src/assets/Logo-jr-fc.svg?url";
+
+import { FooterJr } from "./components/layout/footer";
 
 export function App() {
   return (
@@ -42,6 +45,7 @@ export function App() {
         maiores molestiae minima eos rerum debitis, corrupti, quo ducimus at
         unde eius nobis adipisci atque eaque ad ab dicta necessitatibus soluta.
       </p>
+      <FooterJr />
     </>
   );
 }
