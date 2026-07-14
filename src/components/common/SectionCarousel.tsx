@@ -14,7 +14,7 @@ export function SectionCarousel({ sectionId }: Props) {
       <div className="h-22.5 bg-[url(/src/assets/divisor-negro-arriba.png)] lg:h-33.75 lg:bg-[url(/src/assets/divisor-negro-arriba-desk.png)]"></div>
 
       <section id={sectionId} className="-mt-16 pt-16">
-        <h2 className="bg-jr-negro-a-700 p-4 text-center font-Noto text-3xl text-white">
+        <h2 className="bg-jr-negro-a-700 p-10 text-center font-Noto text-3xl text-white">
           Proyectos
         </h2>
         <CarouselSwiper

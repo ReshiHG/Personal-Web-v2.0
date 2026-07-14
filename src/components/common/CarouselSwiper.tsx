@@ -39,7 +39,7 @@ export function CarouselSwiper({
   ],
 }: CarouselProps) {
   return (
-    <div className="bg-jr-negro-a-700">
+    <div className="bg-jr-negro-a-700 pb-14">
       <Swiper
         navigation={true}
         slidesPerView={1.5}
