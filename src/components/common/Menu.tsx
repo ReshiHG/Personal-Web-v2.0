@@ -30,10 +30,14 @@ export function Menu({
       <nav className="sticky top-0 z-40 -mt-16 h-16 w-full bg-jr-negro-a-900 text-white lg:h-auto">
         <div className="container mx-auto gap-8 lg:flex lg:justify-around">
           <div className="relative z-50 flex items-center bg-jr-negro-a-900 p-3 lg:flex lg:gap-8">
-            <img src={logoSVG} alt={`Logo ${marcaText}`} className="h-10" />
-            <h1 className="mx-auto font-Noto text-3xl font-extralight">
-              {marcaText}
-            </h1>
+            <a href="#">
+              <img src={logoSVG} alt={`Logo ${marcaText}`} className="h-10" />
+            </a>
+            <a href="#">
+              <h1 className="mx-auto font-Noto text-3xl font-extralight">
+                {marcaText}
+              </h1>
+            </a>
           </div>
           <div
             className={`absolute top-0 right-0 left-0 flex h-[calc(100vh-64px)] origin-top flex-col justify-center bg-jr-negro-a-900 p-3 transition-all duration-500 ease-in-out lg:static lg:h-auto lg:flex-row lg:items-center lg:gap-3 ${
