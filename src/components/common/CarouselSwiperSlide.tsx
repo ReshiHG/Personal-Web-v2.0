@@ -19,6 +19,9 @@ export default function CarouselSwiperSlide({
       <div className="bg-jr-blanco-100 p-6">
         <h4 className="text-lg font-bold">{title}</h4>
         <p className="pt-3 text-sm font-light">{content}</p>
+        {/* <div className="w-full flex flex-wrap">
+
+        </div> */}
       </div>
       <a
         className="block w-full bg-jr-logo-naranja-500 py-2 text-center text-xl font-semibold text-white"

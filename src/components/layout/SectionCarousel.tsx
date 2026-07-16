@@ -1,4 +1,4 @@
-import { CarouselSwiper } from "./CarouselSwiper";
+import { CarouselSwiper } from "../common/CarouselSwiper";
 import imgPersonalWeb from "/src/assets/Proyecto-personal-web.png";
 import imgJS from "/src/assets/Proyecto-JS.png";
 import imgBH from "/src/assets/Proyecto-Bussines-House.png";

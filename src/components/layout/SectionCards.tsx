@@ -1,4 +1,4 @@
-import { Card } from "./Card";
+import { Card } from "../common/Card";
 import htmlImg from "/src/assets/html1.png?url";
 import cssImg from "/src/assets/CSS.png?url";
 import jsImg from "/src/assets/Javascript.png?url";

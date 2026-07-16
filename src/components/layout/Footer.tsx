@@ -2,7 +2,7 @@ import linkedInImg from "/src/assets/linkedIn.svg?url";
 import gitHubImg from "/src/assets/github.svg?url";
 import mailImg from "/src/assets/mail.svg?url";
 
-export function FooterJr() {
+export function Footer() {
   return (
     <footer className="flex flex-col gap-8 bg-jr-negro-a-700 p-8 lg:flex-row-reverse lg:justify-evenly">
       <div className="flex items-center justify-evenly lg:my-0 lg:w-1/3">
