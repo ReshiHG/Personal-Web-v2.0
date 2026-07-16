@@ -22,7 +22,7 @@ export function SectionHabilities({ sectionId = "" }: Props) {
         <h2 className="border-b-3 p-4 text-center font-Noto text-3xl">
           Habilidades
         </h2>
-        <div className="container flex max-w-7xl flex-wrap items-center gap-8 p-8">
+        <div className="container flex max-w-7xl flex-wrap items-center justify-center gap-8 p-8">
           <HabilityCard
             img={dataBaseImg}
             title="Bases de datos"
