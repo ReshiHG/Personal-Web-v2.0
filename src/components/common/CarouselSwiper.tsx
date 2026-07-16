@@ -20,6 +20,12 @@ interface Projects {
   title: string;
   content: string;
   URL: string;
+  tecnologies: Tecnologies[];
+}
+
+interface Tecnologies {
+  tecImg: string;
+  altImg: string;
 }
 
 export function CarouselSwiper({
@@ -29,12 +35,20 @@ export function CarouselSwiper({
       title: "Proyecto 1",
       content: "Descripción del proyecto 1",
       URL: "#",
+      tecnologies: [
+        { tecImg: defaultImg, altImg: "default" },
+        { tecImg: defaultImg, altImg: "default" },
+      ],
     },
     {
       imgSlide: defaultImg,
       title: "Proyecto 2",
       content: "Descripción del proyecto 2",
       URL: "#",
+      tecnologies: [
+        { tecImg: defaultImg, altImg: "default" },
+        { tecImg: defaultImg, altImg: "default" },
+      ],
     },
   ],
 }: CarouselProps) {
@@ -61,7 +75,7 @@ export function CarouselSwiper({
         }}
         className="mySwiper container max-w-7xl"
       >
-        {projects.map(({ imgSlide, title, content, URL }) => {
+        {projects.map(({ imgSlide, title, content, URL, tecnologies }) => {
           return (
             <SwiperSlide>
               <CarouselSwiperSlide
@@ -69,6 +83,7 @@ export function CarouselSwiper({
                 title={title}
                 content={content}
                 projectURL={URL}
+                tecnologies={tecnologies}
               />
             </SwiperSlide>
           );
