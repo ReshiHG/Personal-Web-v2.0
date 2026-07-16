@@ -7,6 +7,7 @@ import { SectionHabilities } from "./components/common/SectionHabilities";
 import logoSVG from "/src/assets/Logo-jr-fc.svg?url";
 
 import { FooterJr } from "./components/layout/footer";
+import { SectionContact } from "./components/layout/SectionContact";
 
 export function App() {
   return (
@@ -40,11 +41,7 @@ export function App() {
       <SectionCards sectionId={"Tecnologías"} />
       <SectionCarousel sectionId={"Proyectos"} />
       <SectionHabilities sectionId={"Habilidades"} />
-      <p className="h-dvh">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
-        maiores molestiae minima eos rerum debitis, corrupti, quo ducimus at
-        unde eius nobis adipisci atque eaque ad ab dicta necessitatibus soluta.
-      </p>
+      <SectionContact sectionId={"Contacto"} />
       <FooterJr />
     </>
   );
