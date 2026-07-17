@@ -18,7 +18,7 @@ interface CarouselProps {
 interface Projects {
   imgSlide: string;
   title: string;
-  content: string;
+  content: React.ReactNode;
   URL: string;
   tecnologies: Tecnologies[];
 }
@@ -56,7 +56,7 @@ export function CarouselSwiper({
     <div className="bg-jr-negro-a-700 pb-14">
       <Swiper
         navigation={true}
-        slidesPerView={1.5}
+        slidesPerView={1.3}
         centeredSlides={true}
         spaceBetween={30}
         pagination={{
@@ -65,15 +65,15 @@ export function CarouselSwiper({
         modules={[Navigation, Pagination]}
         breakpoints={{
           768: {
-            slidesPerView: 2.5,
+            slidesPerView: 2.3,
             spaceBetween: 45, // Opcional: más espacio en pantallas grandes
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 2.3,
             spaceBetween: 60, // Opcional: más espacio en pantallas grandes
           },
         }}
-        className="mySwiper container max-w-7xl"
+        className="mySwiper container max-w-7xl shadow-[_-10px_0_10px_-10px_rgba(255,255,255,0.4),10px_0_10px_-10px_rgba(255,255,255,0.4)]"
       >
         {projects.map(({ imgSlide, title, content, URL, tecnologies }) => {
           return (

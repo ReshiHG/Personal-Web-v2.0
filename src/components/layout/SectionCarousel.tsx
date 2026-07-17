@@ -38,8 +38,18 @@ export function SectionCarousel({ sectionId }: Props) {
             {
               imgSlide: imgPersonalWeb,
               title: "Web Personal",
-              content:
-                "Mi página personal, diseñada para dar a conocer mis habilidades y trabajos como desarrollador web.",
+              content: (
+                <>
+                  <b>Portafolio profesional</b> con diseño responsive. Contiene
+                  animaciones fluidas usando Framer Motion (librería de React),
+                  tarjetas resposive usando Flexbox, un carrusel de proyectos
+                  dinámico, además de implementar un menú con navegación suave.{" "}
+                  <br /> <br /> <b>Resultado:</b> Sitio accesible, adaptable a
+                  diversos dispositivos, optimizado para SEO y con un
+                  rendimiento excelente. Refleja mi capacidad para desarrollar
+                  interfaces modernas y centradas en el usuario.
+                </>
+              ),
               URL: "#",
               tecnologies: [
                 { tecImg: htmlImg, altImg: "HTML" },
@@ -57,8 +67,23 @@ export function SectionCarousel({ sectionId }: Props) {
             {
               imgSlide: imgJS,
               title: "Ejercicios JS",
-              content:
-                "Página que desarrollé para prácticar los conocimientos que iba adquiriendo de forma autodidacta sobre JavaScript.",
+              content: (
+                <>
+                  <b>Diversidad de ejercicios prácticos</b> escritos en
+                  JavaScript, que abarcan desde los fundamentos (variables,
+                  funciones, objetos) hasta conceptos avanzados como{" "}
+                  <b>
+                    promesas, async/await, manipulación del DOM, eventos y CRUDs
+                    con Ajax, Axios y Fetch.
+                  </b>
+                  <br />
+                  <br />
+                  <b>Resultado:</b> Este repositorio ma ayudo a practicar y
+                  demuestrar mi capacidad para escribir código limpio, modular y
+                  eficiente, además de mi compromiso con el aprendizaje continuo
+                  y la práctica deliberada.
+                </>
+              ),
               URL: "#",
               tecnologies: [
                 { tecImg: htmlImg, altImg: "HTML" },
@@ -71,8 +96,27 @@ export function SectionCarousel({ sectionId }: Props) {
             {
               imgSlide: imgBH,
               title: "Bussines House",
-              content:
-                "Página desarrollada a medida en mi primer trabajo, con el fin de dar a conocer la empresa y los diferentes desarrollos inmobiliarios.",
+              content: (
+                <>
+                  <b>Sitio web corporativo</b> desarrollado para una
+                  inmobiliaria en mi primer trabajo profesional. Construido con
+                  énfasis en <b>rendimiento, SEO y experiencia de usuario.</b>{" "}
+                  Incluye un sistema de gestión de propiedades (filtros y
+                  búsqueda) y además de formularios de contacto dirigidos a la{" "}
+                  <b>prospección</b> de clientes y generación de <b>leads</b>{" "}
+                  para el equipo de ventas.
+                  <br />
+                  <br />
+                  <b>Resultado:</b> El sitio ayudó a consolidar la presencia
+                  digital de la empresa, aumentando la generación de leads.
+                  <b>
+                    {" "}
+                    Aprendí a trabajar con recursos limitados, requisitos
+                    cambiantes y a coordinarme con diseñadores, equipos de
+                    marketing, y a conocer el sector inmobiliario.
+                  </b>
+                </>
+              ),
               URL: "#",
               tecnologies: [
                 { tecImg: htmlImg, altImg: "HTML" },
@@ -88,8 +132,33 @@ export function SectionCarousel({ sectionId }: Props) {
             {
               imgSlide: imgMyM,
               title: "Mascotas y Mascotitas",
-              content:
-                "Aplicación web desarrollada para la clínica veterinaria homónima, que permite gestionar el inventario de medicamentos y stock de tienda.",
+              content: (
+                <>
+                  <b>Aplicación web para gestión de inventario</b> en una
+                  clínica veterinaria. Implementada con sistema de{" "}
+                  <b>autenticación de usuarios</b> (roles: jefe de clínica,
+                  veterinario, gerente, proveedor, desarrollador), gestión de
+                  medicamentos (cantidad restante total, apartados y
+                  disponibles), proveedores,{" "}
+                  <b>solicitudes de reabastecimiento y alertas</b> de stock
+                  bajo.
+                  <br />
+                  <br />
+                  <b>Resultado:</b> Optimizó la gestión de medicamentos,{" "}
+                  <b>reduciendo el 73.8% de falta de medicamentos </b> por
+                  desconocimiento del stock actual. Además unifico la
+                  información de los proveedores, y las solicitudes de
+                  reabastecimiento de medicamento. Este proyecto demuestra mi{" "}
+                  <b>
+                    capacidad para llevar a cabo todo el ciclo de vida del
+                    software
+                  </b>
+                  , pasando por la identificación de requisitos, cotización,
+                  diseño, codificación, documentación e implementación de la
+                  aplicación, mostrando mi{" "}
+                  <b>competencia como desarrollador fullstack.</b>
+                </>
+              ),
               URL: "#",
               tecnologies: [
                 { tecImg: htmlImg, altImg: "HTML" },
