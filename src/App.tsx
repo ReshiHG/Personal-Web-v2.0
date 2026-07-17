@@ -27,7 +27,7 @@ export function App() {
             title: "Tecnologías",
           },
           {
-            title: "Proyectos",
+            title: "Experiencia",
           },
           {
             title: "Habilidades",
@@ -39,7 +39,7 @@ export function App() {
       />
       <Hero sectionIdMobile="Sobre mi" sectionIdDesktop="Inicio" />
       <SectionCards sectionId={"Tecnologías"} />
-      <SectionCarousel sectionId={"Proyectos"} />
+      <SectionCarousel sectionId={"Experiencia"} />
       <SectionHabilities sectionId={"Habilidades"} />
       <SectionContact sectionId={"Contacto"} />
       <Footer />

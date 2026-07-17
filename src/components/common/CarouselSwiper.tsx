@@ -73,7 +73,7 @@ export function CarouselSwiper({
             spaceBetween: 60, // Opcional: más espacio en pantallas grandes
           },
         }}
-        className="mySwiper container max-w-7xl shadow-[_-10px_0_10px_-10px_rgba(255,255,255,0.4),10px_0_10px_-10px_rgba(255,255,255,0.4)]"
+        className="mySwiper container max-w-7xl shadow-[-10px_0_10px_-10px_rgba(255,255,255,0.4),10px_0_10px_-10px_rgba(255,255,255,0.4)]"
       >
         {projects.map(({ imgSlide, title, content, URL, tecnologies }) => {
           return (
