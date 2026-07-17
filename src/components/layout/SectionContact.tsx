@@ -29,7 +29,7 @@ export function SectionContact({ sectionId }: Props) {
     <>
       <div className="h-22.5 bg-[url(/src/assets/divisor-negro-arriba.png)] lg:h-33.75 lg:bg-[url(/src/assets/divisor-negro-arriba-desk.png)]"></div>
 
-      <section id={sectionId} className="-mt-16 h-screen pt-16">
+      <section id={sectionId} className="-mt-16 h-screen min-h-220 pt-16">
         <div className="h-full bg-[url(/src/assets/fondo-contacto-naranja-mobile.jpg)] bg-cover bg-center lg:bg-[url(/src/assets/fondo-contacto-naranja-desktop.jpg)]">
           <h2 className="bg-jr-negro-a-700 p-8 text-center font-Noto text-3xl text-white">
             Contacto
