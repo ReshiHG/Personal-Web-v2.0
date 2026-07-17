@@ -20,7 +20,7 @@ export function HabilityCard({
         <h4 className="mx-auto border-b border-white pb-4 text-center text-lg font-normal lg:text-xl">
           {title}
         </h4>
-        <p className="pt-4 pb-4 text-justify text-sm font-light lg:text-base">
+        <p className="pt-4 pb-4 text-justify text-sm font-light hyphens-auto lg:text-base">
           {content}
         </p>
       </div>

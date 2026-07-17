@@ -54,7 +54,7 @@ export function Hero({
             Sobre mi
           </h2>
 
-          <p className="flex flex-col gap-3 p-8 text-justify lg:px-10 lg:py-8 lg:text-lg lg:font-light">
+          <p className="flex flex-col gap-3 p-8 text-justify hyphens-auto lg:px-10 lg:py-8 lg:text-lg lg:font-light">
             <span>
               <b>Tengo 3 años de experiencia como desarrollador web. </b>
             </span>
