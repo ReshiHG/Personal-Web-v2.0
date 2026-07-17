@@ -1,4 +1,4 @@
-import { HabilityCard } from "./HabilityCard";
+import { HabilityCard } from "../common/HabilityCard";
 import dataBaseImg from "/src/assets/data-base.svg";
 import supportImg from "/src/assets/soporte-n2.svg";
 import frontendImg from "/src/assets/frontend.svg";

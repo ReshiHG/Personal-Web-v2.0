@@ -1,12 +1,12 @@
 import { Menu } from "./components/common/Menu";
-import { Hero } from "./components/common/Hero";
-import { SectionCards } from "./components/common/SectionCards";
-import { SectionCarousel } from "./components/common/SectionCarousel";
-import { SectionHabilities } from "./components/common/SectionHabilities";
+import { Hero } from "./components/layout/Hero";
+import { SectionCards } from "./components/layout/SectionCards";
+import { SectionCarousel } from "./components/layout/SectionCarousel";
+import { SectionHabilities } from "./components/layout/SectionHabilities";
 
 import logoSVG from "/src/assets/Logo-jr-fc.svg?url";
 
-import { FooterJr } from "./components/layout/footer";
+import { Footer } from "./components/layout/Footer";
 import { SectionContact } from "./components/layout/SectionContact";
 
 export function App() {
@@ -27,7 +27,7 @@ export function App() {
             title: "Tecnologías",
           },
           {
-            title: "Proyectos",
+            title: "Experiencia",
           },
           {
             title: "Habilidades",
@@ -39,10 +39,10 @@ export function App() {
       />
       <Hero sectionIdMobile="Sobre mi" sectionIdDesktop="Inicio" />
       <SectionCards sectionId={"Tecnologías"} />
-      <SectionCarousel sectionId={"Proyectos"} />
+      <SectionCarousel sectionId={"Experiencia"} />
       <SectionHabilities sectionId={"Habilidades"} />
       <SectionContact sectionId={"Contacto"} />
-      <FooterJr />
+      <Footer />
     </>
   );
 }
