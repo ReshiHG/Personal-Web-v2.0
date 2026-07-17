@@ -40,12 +40,12 @@ export default function CarouselSwiperSlide({
           })}
         </div>
       </div>
-      {/* <a
-        className="block w-full bg-jr-logo-naranja-500 py-2 text-center text-xl font-semibold text-white"
+      <a
+        className="hidden w-full bg-jr-logo-naranja-500 py-2 text-center text-xl font-semibold text-white"
         href={projectURL}
       >
         Visitar
-      </a> */}
+      </a>
     </div>
   );
 }
