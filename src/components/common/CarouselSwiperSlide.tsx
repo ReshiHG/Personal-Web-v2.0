@@ -28,7 +28,7 @@ export default function CarouselSwiperSlide({
       <img className="w-full" src={img} alt={title} />
       <div className="bg-jr-blanco-100 p-6 lg:p-10">
         <h4 className="text-lg font-bold lg:text-xl">{title}</h4>
-        <p className="pt-3 text-justify text-sm font-light lg:text-base">
+        <p className="pt-3 text-justify text-sm font-light hyphens-auto lg:text-base">
           {content}
         </p>
         <h6 className="my-3 text-base font-semibold text-jr-naranja-500 lg:text-lg">

@@ -50,8 +50,8 @@ export function SectionCarousel({ sectionId }: Props) {
                   animaciones fluidas usando Framer Motion (librería de React),
                   tarjetas resposive usando Flexbox, un carrusel de proyectos
                   dinámico, además de implementar un menú con navegación suave.{" "}
-                  <br /> <br /> <b>Resultado:</b> Sitio accesible, adaptable a
-                  diversos dispositivos, optimizado para SEO y con un
+                  <br /> <br /> <b>Resultado:</b> Sitio accesible y adaptable a
+                  diversos dispositivos. Optimizado para SEO y con un
                   rendimiento excelente. Refleja mi capacidad para desarrollar
                   interfaces modernas y centradas en el usuario.
                 </>
@@ -86,17 +86,17 @@ export function SectionCarousel({ sectionId }: Props) {
                   <br />
                   <br />
                   <b>Resultado:</b> Optimizó la gestión de medicamentos,{" "}
-                  <b>reduciendo el 73.8% de falta de medicamentos </b> por
-                  desconocimiento del stock actual. Además unifico la
-                  información de los proveedores, y las solicitudes de
-                  reabastecimiento de medicamento. Este proyecto demuestra mi{" "}
+                  <b>reduciendo la falta de medicamentos en un 73.8%</b> debida
+                  al desconocimiento del stock actual. Además unifico la
+                  información de los proveedores, y las solicitudes decompra.
+                  Este proyecto demuestra mi{" "}
                   <b>
                     capacidad para llevar a cabo todo el ciclo de vida del
                     software
                   </b>
                   , pasando por la identificación de requisitos, cotización,
                   diseño, codificación, documentación e implementación de la
-                  aplicación, mostrando mi{" "}
+                  aplicación, mostrando así, mi{" "}
                   <b>competencia como desarrollador fullstack.</b>
                 </>
               ),
@@ -116,25 +116,24 @@ export function SectionCarousel({ sectionId }: Props) {
               content: (
                 <>
                   <b>Sistema web ERP</b> al que di mantenimiento y soporte
-                  durante casi 3 años. Atendí las incidencias de órdenes de
-                  compra y reportes mediante <b>tickets</b>, a la par que
-                  participaba en <b>decisiones técnicas</b> usando metodologías
-                  ágiles como SCRUM con el fin de corregir de raíz las consultas
-                  y procedimientos almacenados con fallas. Además{" "}
+                  durante casi 3 años. Usaba el sistema de <b>tickets</b> para
+                  atender las incidencias sobre órdenes de compra y reportes.
+                  También participaba en <b>decisiones técnicas</b> para
+                  solucionar de raíz los errores presentes en las consultas y
+                  procedimientos almacenados. Por último,{" "}
                   <b>documenté procesos</b> perdidos de la memoria
                   organizacional.
                   <br />
                   <br />
-                  <b>Resultado:</b> Corrección y refactorización de las
-                  consultas y procedimientos almacenados más usados,{" "}
+                  <b>Resultado:</b> Corrección y refactorización de consultas y
+                  procedimientos almacenados más usados,{" "}
                   <b>
-                    mejorando el rendimiento, reduciendo el número de
-                    incidencias
+                    mejorando así, el rendimiento y reduciendo el número de
+                    incidencias.
                   </b>{" "}
-                  y sobre todo la mejora en los tiempos de trabajo del equipo
-                  administrativo y de contaduría. Además de{" "}
-                  <b>facilitar el onboarding</b> de nuevos empleados y las
-                  pruebas de calidad mediante la documentación de procesos.
+                  Además, con la documentación de procesos, se mejoró{" "}
+                  <b>el onboarding</b> de nuevos empleados y las pruebas de
+                  calidad.
                 </>
               ),
               URL: "#",
@@ -156,7 +155,7 @@ export function SectionCarousel({ sectionId }: Props) {
                   inmobiliaria en mi primer trabajo profesional. Construido con
                   énfasis en <b>rendimiento, SEO y experiencia de usuario.</b>{" "}
                   Incluye un sistema de gestión de propiedades (filtros y
-                  búsqueda) y además de formularios de contacto dirigidos a la{" "}
+                  búsqueda) y además de formularios de contacto enfocados a la{" "}
                   <b>prospección</b> de clientes y generación de <b>leads</b>{" "}
                   para el equipo de ventas.
                   <br />
@@ -167,7 +166,7 @@ export function SectionCarousel({ sectionId }: Props) {
                     {" "}
                     Aprendí a trabajar con recursos limitados, requisitos
                     cambiantes y a coordinarme con diseñadores, equipos de
-                    marketing, y a conocer el sector inmobiliario.
+                    marketing.
                   </b>
                 </>
               ),
@@ -198,7 +197,7 @@ export function SectionCarousel({ sectionId }: Props) {
                   <br />
                   <br />
                   <b>Resultado:</b> Este repositorio ma ayudo a practicar y
-                  demuestrar mi capacidad para escribir código limpio, modular y
+                  demostrar mi capacidad para escribir código limpio, modular y
                   eficiente, además de mi compromiso con el aprendizaje continuo
                   y la práctica deliberada.
                 </>

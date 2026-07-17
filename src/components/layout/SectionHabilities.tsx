@@ -26,18 +26,18 @@ export function SectionHabilities({ sectionId = "" }: Props) {
           <HabilityCard
             img={dataBaseImg}
             title="Bases de datos"
-            content="Me siento cómodo trabajando con consultas a bases de datos, procedimientos almacenados y Jobs, tanto para dar soporte, crear y optimizar las mismas."
+            content="Poseo una amplia experiencia trabajando con consultas, procedimientos almacenados y Jobs, ya sea para darles soporte, mantenimiento u optimización."
           />
           <HabilityCard
             img={supportImg}
             title="Soporte N2"
-            content="Tengo experiencia amplia dando soporte a aplicaciones tanto webs como de escritorio. Puedo diagnosticar el problema, atender a usuarios y desarrollar soluciones para las incidencias."
+            content="He dado soporte a aplicaciones webs y de escritorio.  Puedo atender usuarios, diagnosticar errores e implementar soluciones, evitando que los procesos críticos se detengan."
           />
 
           <HabilityCard
             img={frontendImg}
             title="Front-End"
-            content="Me especializo en transformar el diseño del software en interfaces de páginas, sitios o aplicaciones web funcionales, y desplegarlas en internet."
+            content="Mi especialidad es convertir cualquier diseño en una interfaz web funcional, responsiva y con disponibilidad online."
           />
 
           <HabilityCard
@@ -61,7 +61,7 @@ export function SectionHabilities({ sectionId = "" }: Props) {
           <HabilityCard
             img={metodologiesImg}
             title="Metodologías ágiles"
-            content="Habituado a trabajar con metodologías ágiles, especialmente con SCRUM con la cual trabajé durante la mayor parte de mi carrera profesional."
+            content="La mayor parte de mi carrera he trabajado con metodologías ágiles, especialmente SCRUM"
           />
 
           <HabilityCard
