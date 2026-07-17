@@ -56,27 +56,27 @@ export function Hero({
 
           <p className="flex flex-col gap-3 p-8 text-justify hyphens-auto lg:px-10 lg:py-8 lg:text-lg lg:font-light">
             <span>
-              <b>Tengo 3 años de experiencia como desarrollador web. </b>
+              <b>Cuento con 3 años de experiencia como desarrollador web. </b>
             </span>
             <span>
-              He diseñado e implementado landing pages usando JavaScript,
+              He diseñado e implementado landing pages utilizando JavaScript,
               Node.js, Illustrator y Figma.
             </span>
             <span>
-              También he trabajado como soporte back-end, documentando procesos
-              y resolviendo incidencias en ERP mediante procedimientos
-              almacenados en SQL Server y código .NET / Visual Basic, siguiendo
+              También he brindado soporte back-end, documentado procesos y
+              resuelto incidencias en el ERP mediante procedimientos almacenados
+              en SQL Server y código en .NET / Visual Basic, siempre bajo
               metodologías ágiles.
             </span>
             <span>
-              Mi nivel de inglés es pre-intermedio, así que puedo leer
-              documentación oficial y comunicarme de forma sencilla.
+              Mi nivel de inglés es pre-intermedio, lo que me permite leer
+              documentación técnica y comunicarme de forma sencilla.
             </span>
             <span>
-              Busco un entorno estable para crear y mantener aplicaciones web,
-              con oportunidades de crecimiento profesional a largo plazo, además
-              estoy en la mejor disposición de aprender rápido nuevas
-              tecnologías ya que creo firmemente que
+              Busco un entorno estable donde pueda crear y mantener aplicaciones
+              web, con oportunidades de crecimiento profesional a largo plazo.
+              Estoy en la mejor disposición de aprender rápidamente nuevas
+              tecnologías, porque creo firmemente que
               <b> el trabajo de tus sueños es aquel que dominas.</b>
             </span>
           </p>
